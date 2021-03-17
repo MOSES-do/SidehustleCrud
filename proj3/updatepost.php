@@ -63,7 +63,6 @@ $id = mysqli_real_escape_string($conn, $_GET['id']);
 
 
 //Create a query to get individual posts
-// $query = 'SELECT * FROM posts WHERE id = 1'; instead of one we use .$id;
 $query = 'SELECT * FROM proj3 WHERE id ='.$id;
 
 //Get Result
