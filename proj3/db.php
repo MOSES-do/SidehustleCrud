@@ -1,6 +1,6 @@
 <?php 
 
-    // $conn = mysqli_connect ('localhost', 'root', 'sequel12_711', 'crud_proj');
+    
     $conn = mysqli_connect ('remotemysql.com', 'Qpez0DbReM', 'R8Tmn6FB2V', 'Qpez0DbReM');
 
         if(mysqli_connect_errno()){
