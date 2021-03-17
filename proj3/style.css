@@ -1,0 +1,82 @@
+
+
+
+h3{
+    text-align: center;
+    padding-left:35px;
+    margin-bottom:20px;
+}
+
+
+
+
+#form-validation{
+    position:absolute;
+    margin-top:10%;
+    top: 10px;
+    left:500px;
+    background-color: darkgrey;
+    padding-right:30px;
+    width:310px;
+    
+}
+
+.form-group{
+    margin-left:50px;
+}
+
+input[type="text"]{
+    width:270px;
+    padding: 8px;
+}
+
+.pword[type="password"]{
+    width:220px;
+    padding: 8px;
+}
+
+.text{
+    width:240px;
+    padding: 8px;
+}
+
+.policy{
+    margin-top: 20px;
+    text-align: center;
+    line-height:0px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left:120px;
+    background-color: maroon;
+    width:90px;
+    height:30px;
+    margin-bottom:30px;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    border-radius:10px;
+}
+
+.container{
+    padding-bottom:80px;
+}
+
+/* Error Log */
+.error{
+    color:#cc0000;
+    padding-top:5px;
+    float:left;
+    width:100%;
+    margin-bottom:5px;
+}
+
+.success{
+    color:rgb(60, 165, 0);
+    padding-top:5px;
+    float:left;
+    width:100%;
+    margin-bottom:5px;
+    text-align:center;
+}
