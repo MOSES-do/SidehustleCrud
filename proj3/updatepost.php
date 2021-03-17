@@ -318,7 +318,7 @@ $post = mysqli_fetch_array($result);
 
  <style>
 .navbar{
-    padding-bottom:40px;
+    padding-bottom:50px;
 }
 
 .container-fluid{
@@ -400,7 +400,7 @@ body{
     #form-validation{
         top:10%;
         position:absolute;
-        left:18%;
+        left:25%;
         align:center;
 
        
