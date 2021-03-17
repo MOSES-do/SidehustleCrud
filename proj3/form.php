@@ -333,7 +333,7 @@ body{
     #form-validation{
         top:10%;
         position:absolute;
-        left:25%;
+        left:8%;
         align:center;
 
        
