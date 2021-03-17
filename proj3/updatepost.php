@@ -309,16 +309,129 @@ $post = mysqli_fetch_array($result);
      <input type="hidden" name="update_id" value="<?php echo $post['id']; ?>"> 
         
 
-    <button type="submit" class="btn" name="form"> Update </button>
+    <button type="submit" class="btn-1" name="form"> Update </button>
 </div>
     
     </form>
     </div>
 
+
+
+ <style>
+.navbar{
+    padding-bottom:40px;
+}
+
+.container-fluid{
+    position:fixed;
+    margin-top:30px;
+    z-index:1
+}
+
+ #form-validation{
+     margin-top:5%;
+ }
+
+
+
+ input[type="text"]{
+    width:240px;
+    padding: 8px;
+}
+
+.pword[type="password"]{
+    width:240px;
+    padding: 8px;
+}
+
+.form-group{
+    margin-left:50px;
+}
+
+
+ .btn{
+     margin:0px;
+ }
+
+ .success{
+    color:white;
+    font-weight: bold;
+    padding-top:5px;
+    float:left;
+    width:110%;
+    background-color: black;
+    border: 0px;
+    outline: 0px;
+    margin-bottom:5px;
+    text-align:center;
+ }
+
+body{
+    background:linear-gradient(to right, rgb(94, 100, 126), rgba(94, 255, 126, 0));
+}
+
+.policy{
+    margin-top: 20px;
+    text-align: center;
+    line-height:20px;
+    margin-left:35px;
+    font-size:14px;
+}
+
+.btn-1{
+    margin-top: 20px;
+    margin-left:120px;
+    background-color: maroon;
+    width:90px;
+    height:30px;
+    margin-bottom:30px;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    border-radius:10px;
+}
+
+
+
+
+/*====Media Queries====*/
+
+
+@media  (max-width:768px){
+    #form-validation{
+        top:10%;
+        position:absolute;
+        left:18%;
+        align:center;
+
+       
+	}
+}
+
+
+@media  (max-width:1024px){
+    #form-validation{
+        position:absolute;
+        left:20%;
+        align:center;
+
+       
+	}
+}
+
+
+@media  (max-width:465px){
+    #form-validation{
+        position:absolute;
+        left:2%;
+        align:center;
+	}
+} 
+ </style>
+
       
 
        
       
-
 
 
