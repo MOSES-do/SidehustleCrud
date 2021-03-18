@@ -18,7 +18,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="login.php">  <button type="button" class="btn btn-labeled btn-primary"> <span class="btn-label"><i class="fa fa-info"></i></span>ADMIN LOGIN</button></a>
+    <a class="navbar-brand" href="login.php">  <button type="button" class="btn btn-labeled btn-primary"> <span class="btn-label"><i class="fa fa-chevron-right"></i></span>ADMIN LOGIN</button></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
