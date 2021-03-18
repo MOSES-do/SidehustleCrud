@@ -93,7 +93,7 @@
     </div>
 
     <div class="form-group">
-        <p> Department </p>
+        <p class="mid"> Department </p>
         <select name="dept" type="text" class="text" > 
             <option value="NULL">--Select Department</option>
             <option value="Banking & Finance">Banking & Finance</option>
@@ -110,7 +110,7 @@
     </div>
 
     <div class="form-group">
-        <p> Shift </p>
+        <p class="mid"> Shift </p>
         <select name="shift" type="text" class="text" > 
             <option value="NULL">--Select Shift</option>
             <option value="1st">1st</option>
@@ -124,7 +124,7 @@
     </div>
 
     <div class="form-group">
-        <p> Semester </p>
+        <p class="mid"> Semester </p>
         <select name="sem" type="text" class="text" > 
             <option value="NULL">--Select Semester</option>
             <option value="1st">1st</option>
@@ -144,7 +144,7 @@
     </div>
 
     <div class="form-group">
-    <p> Gender </p>
+    <p class="mid"> Gender </p>
     <input type="radio" name="sex" value="Male" checked> Male
      <!--<php if(isset($sex) && $sex ='Male') echo 'checked="checked"'; ?> This causes an error on form submission -->
     <input type="radio" name="sex" value="Female" checked> Female
@@ -156,7 +156,7 @@
     </div>
 
     <div class="form-group">
-        <p> Username </p>
+        <p class="mid"> Username </p>
         <input type="text"  class="form-control" name="uname" placeholder="Username" value="<?= $uname ?>">
         <?php 
             if(isset($error_msg['uname'])){
@@ -273,6 +273,11 @@
      padding-left:10%;
      padding-bottom:5%;
      font-size:18px
+}
+
+.mid{
+     margin-top:5%;
+}
 
 
 
