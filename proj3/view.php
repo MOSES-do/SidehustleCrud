@@ -92,7 +92,7 @@ body{
         <?php 
             if(isset($_SESSION['Username'])){//This forces the page to redirect back to login.php if session is not set and if session is 
                 //set and open on multiple pages once one is logged out all is logged out.
-            echo "<span class='name'  style='margin:0px; font-weight:bold; position:absolute; width:8em; margin-left:55em; top:5px;'>" .'Hello, ' . $_SESSION["Username"] . "</span>";
+            echo "<span class='name'  style='margin:0px; font-weight:bold; position:absolute; width:8em; margin-left:53em; top:5px;'>" .'Hello, ' . $_SESSION["Username"] . "</span>";
             echo '<div class="dboard"><h1 style="text-align:center; margin-left:8em;">Welcome To Your Dashboard</h1></div>';
             } else {
                 echo "<script> location.href='login.php' </script>";
