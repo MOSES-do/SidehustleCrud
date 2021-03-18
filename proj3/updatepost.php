@@ -91,7 +91,7 @@ $post = mysqli_fetch_array($result);
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="login.php">ADMIN LOGIN</a>
+    <a class="navbar-brand" href="#">TechAce.io</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -165,7 +165,7 @@ $post = mysqli_fetch_array($result);
     </div>
 
     <div class="form-group">
-        <p> Department </p>
+        <p class="mid"> Department </p>
         <select name="dept" type="text" class="text"> 
             <option value="NULL">--Select Department</option>
             <option value="Banking & Finance">Banking & Finance</option>
@@ -182,7 +182,7 @@ $post = mysqli_fetch_array($result);
     </div>
 
     <div class="form-group">
-        <p> Shift </p>
+        <p class="mid"> Shift </p>
         <select name="shift" type="text" class="text" > 
             <option value="NULL">--Select Shift</option>
             <option value="1st">1st</option>
@@ -196,7 +196,7 @@ $post = mysqli_fetch_array($result);
     </div>
 
     <div class="form-group">
-        <p> Semester </p>
+        <p class="mid"> Semester </p>
         <select name="sem" type="text" class="text"> 
             <option value="NULL">--Select Semester</option>
             <option value="1st">1st</option>
@@ -216,7 +216,7 @@ $post = mysqli_fetch_array($result);
     </div>
 
     <div class="form-group">
-    <p> Gender </p>
+    <p class="mid"> Gender </p>
     <input type="radio" name="sex" value="Male" <?php if(isset($sex) && $sex ='Male') echo 'checked="checked"';?>> Male
     <input type="radio" name="sex" value="Female" <?php if(isset($sex) && $sex ='Female') echo 'checked="checked"';?>> Female
     <?php 
@@ -227,7 +227,7 @@ $post = mysqli_fetch_array($result);
     </div>
 
     <div class="form-group">
-        <p> Username </p>
+        <p class="mid"> Username </p>
         <input type="text" name="uname" placeholder="Username" value="<?php echo $post['Uname']; ?>">
         <?php 
             if(isset($error_msg['uname'])){
@@ -329,18 +329,36 @@ $post = mysqli_fetch_array($result);
 
  #form-validation{
      margin-top:5%;
+     top:10px;
+     left:500px;
+     background-color:darkgrey;
+     padding-right:30%;
+     width:330px;
  }
 
+  h3{
+    padding-top:10%;
+    padding-left:10%;
+    padding-bottom:5%;
+    font-size:18px;
+}
+
+.mid{
+    margin-top:5%;
+}
+   
 
 
  input[type="text"]{
     width:240px;
     padding: 8px;
+    margin-bottom:3%;
 }
 
 .pword[type="password"]{
     width:240px;
     padding: 8px;
+    margin-bottom:3%;
 }
 
 .form-group{
@@ -432,5 +450,4 @@ body{
 
        
       
-
 
