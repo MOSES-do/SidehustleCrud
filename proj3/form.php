@@ -263,7 +263,7 @@
      margin-top:5%;
      top:10px;
      left:500px;
-     background-color: dark grey;
+     background-color: darkgrey;
      padding-right:30px;
      width:330px;
  }
