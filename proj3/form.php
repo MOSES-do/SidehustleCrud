@@ -261,19 +261,31 @@
 
  #form-validation{
      margin-top:5%;
-     /* padding-right:10px; */
+     top:10px;
+     left:500px;
+     background-color: dark grey;
+     padding-right:30px;
+     width:330px;
  }
+
+   h3{ 
+     padding-top:10%;
+     padding-left:10%;
+     padding-bottom:5%;
+     font-size:18px
 
 
 
  input[type="text"]{
     width:240px;
     padding: 8px;
+    margin-bottom:3%;
 }
 
 .pword[type="password"]{
     width:240px;
     padding: 8px;
+    margin-bottom:3%;
 }
 
 .form-group{
