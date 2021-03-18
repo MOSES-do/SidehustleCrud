@@ -85,15 +85,15 @@ body{
 
             <form action="logout.php" method ="POST">
         
-             <input type = "submit"  value="Logout" style="margin-left:68em; position:absolute; top:0em;" name="logout" class="btn btn-success logout">
+             <input type = "submit"  value="Logout" style="margin-left:58em; position:absolute; top:0em;" name="logout" class="btn btn-success logout">
                   
              </form> 
 
         <?php 
             if(isset($_SESSION['Username'])){//This forces the page to redirect back to login.php if session is not set and if session is 
                 //set and open on multiple pages once one is logged out all is logged out.
-            echo "<span class='name'  style='margin:0px; font-weight:bold; position:absolute; width:8em; margin-left:74em; top:5px;'>" .'Hello, ' . $_SESSION["Username"] . "</span>";
-            echo '<div class="dboard"><h1 style="text-align:center; margin-left:10em;">Welcome To Your Dashboard</h1></div>';
+            echo "<span class='name'  style='margin:0px; font-weight:bold; position:absolute; width:8em; margin-left:66em; top:5px;'>" .'Hello, ' . $_SESSION["Username"] . "</span>";
+            echo '<div class="dboard"><h1 style="text-align:center; margin-left:6em;">Welcome To Your Dashboard</h1></div>';
             } else {
                 echo "<script> location.href='login.php' </script>";
             
