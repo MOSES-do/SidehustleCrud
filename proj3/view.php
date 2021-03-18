@@ -61,6 +61,22 @@ body{
 	}
 }
 
+.btn-label {
+	position: relative;
+	left: -12px;
+	display: inline-block;
+	padding: 6px 12px;
+	background: rgba(0, 0, 0, 0.15);
+	border-radius: 3px 0 0 3px;
+}
+ 
+.btn-labeled {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+ 
+
+
 
 </style>
 
@@ -134,12 +150,12 @@ body{
 
                     <!-- Edit button -->
                     <td> <a href="<?php "form.php" ;?>updatepost.php?id=<?php echo $row['id']; ?>"
-                      class = "glyphicon glyphicon-info-sign">Edit</a>
+                      class = "btn btn-labeled btn-info">Edit</a>
                     </td>
 
                     <td>
                     <!-- Delete button -->
-                     <a  href="<?php "form.php";?>deletepost.php?id=<?php echo $row['id']; ?>"  <span class="btn-label"><i class="fa fa-trash"></i></span>Trash</button></a>   
+                     <a  href="<?php "form.php";?>deletepost.php?id=<?php echo $row['id']; ?>"  <span class="btn-label"><i class="fa fa-trash"></i></span></button></a>   
                     </td> 
                 </tr>
                 <?php endwhile; ?>
