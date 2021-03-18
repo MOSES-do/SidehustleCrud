@@ -422,7 +422,7 @@ body{
 @media  (max-width:465px){
     #form-validation{
         position:absolute;
-        left:2%;
+        left:14%;
         align:center;
 	}
 } 
