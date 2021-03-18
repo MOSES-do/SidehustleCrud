@@ -49,7 +49,7 @@ body{
     .logout{
         top:90%;
         position:absolute;
-        right:-130%;
+        right:-100%;
         margin-left:48em;
         /* width:400%;    */
 	}
