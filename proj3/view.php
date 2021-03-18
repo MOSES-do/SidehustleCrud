@@ -49,8 +49,8 @@ body{
     .logout{
         top:90%;
         position:absolute;
-        right:-50%;
-        margin-left:10em;
+        right:-130%;
+        margin-left:48em;
         /* width:400%;    */
 	}
 }
@@ -87,7 +87,7 @@ body{
 
             <form action="logout.php" method ="POST">
         
-             <input type = "submit"  value="Logout" style="margin-left:68em; position:absolute; top:0em;" name="logout" class="btn btn-success logout">
+             <input type = "submit"  value="Logout" style="margin-left:48em; position:absolute; top:0em;" name="logout" class="btn btn-success logout">
                   
              </form> 
 
