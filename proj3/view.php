@@ -50,7 +50,7 @@ body{
         top:90%;
         position:absolute;
         right:-100%;
-        margin-left:48em;
+        margin-left:10em;
         /* width:400%;    */
 	}
 }
